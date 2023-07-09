@@ -5,10 +5,8 @@
 	speed: 2
 	flying: false
 	canBoost: false
-	itemCapacity: -1
+	itemCapacity: 20
 	health: 124
-	buildSpeed: 0
-	mineSpeed: 0
 	weapons: [
 		{
 		name: wtt-weapon
