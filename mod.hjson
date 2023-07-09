@@ -4,4 +4,5 @@
 	subtitle: "[clear][]"
 	version: hell
 	author: "[clear][]"
+	minGameVersion: 136
 }
