@@ -1,0 +1,35 @@
+{
+	type: mech
+	name: Wonky Tangerine Trooper
+	description: WTT for shorty!!!111
+	speed: 2
+	flying: false
+	canBoost: false
+	itemCapacity: -1
+	health: 124
+	buildSpeed: 0
+	mineSpeed: 0
+	weapons: [
+		{
+		name: wtt-weapon
+		x: 4
+		y: 0
+		reload: 60
+		mirror: true
+		alternate: true
+		inaccuracy: 25
+		top: true
+			bullet: {
+			speed: 20
+			damage: 10
+			lifetime: 7.5
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			backColor: A0B0C8
+			frontColor: ffffff
+			width: 5
+			height: 5
+			}
+		}
+	]
+}
