@@ -1,0 +1,32 @@
+{
+	name: Dysfunctional Rainbow Blaster
+	description: DRB for short
+	type: PowerTurret
+	health: 1000
+	range: 500
+	reload: 30
+	size: 2
+	shootSound: none
+	consumes: {
+		power: 6.6666666666666666666666666
+	}
+	shootType: {
+		sprite: kiky7-rainbow
+		length: 8
+		width: 8
+		damage: 100
+		status: freezing
+		status: tarred
+		status: spore-slowed
+		status: slow
+		statusDuration: 120
+		pierce: true
+		speed: 10
+		lifetime: 45
+	}
+	category: turret
+	research: duo
+	requirements: [
+		iirc/66
+	]
+}
