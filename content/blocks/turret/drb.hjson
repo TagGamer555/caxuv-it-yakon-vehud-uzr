@@ -12,12 +12,9 @@
 	}
 	shootType: {
 		sprite: kiky7-rainbow
-		length: 8
-		width: 16
+		length: 24
+		width: 4
 		damage: 120
-		status: freezing
-		status: tarred
-		status: spore-slowed
 		status: slow
 		statusDuration: 120
 		pierce: true
@@ -27,6 +24,6 @@
 	category: turret
 	research: duo
 	requirements: [
-		iirc/66
+		iirc/666
 	]
 }
