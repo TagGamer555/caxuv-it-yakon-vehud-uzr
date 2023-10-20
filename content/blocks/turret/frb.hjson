@@ -1,0 +1,28 @@
+{
+	name: Functional Rainbow Blaster
+	description: Scary OwO
+	health: 4000
+	range: 2000
+	reload: 15
+	size: 4
+	shootSound: none
+	consumes: {
+		power: 66.6666666666666666666666666
+	}
+	shootType: {
+		sprite: kiky7-rainbow
+		length: 48
+		width: 4
+		damage: 240
+		status: slow
+		statusDuration: 240
+		pierce: true
+		speed: 20
+		lifetime: 100
+	}
+	category: turret
+	research: drb
+	requirements: [
+		iirc/666666
+	]
+}
