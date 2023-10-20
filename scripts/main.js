@@ -1,4 +1,5 @@
   
 const mod = Vars.mods.locateMod("kiky7");
 
-require("content");
+require("blocks");
+require("units");
