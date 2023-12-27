@@ -3,10 +3,12 @@
 	description: Fires exploding projectiles.
 	
 	health: 300
-	armor: 3
+	armor: 1.25
 	speed: 2
 	
+	flying: false
 	canBoost: true
+	
 	buildSpeed: 1
 	itemCapacity: 30
 	
