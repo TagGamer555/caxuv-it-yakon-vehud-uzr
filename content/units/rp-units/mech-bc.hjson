@@ -15,9 +15,9 @@
 	weapons: [
 		{
 			name: mech-bc-weapon
-			x: 4.5
+			x: 6
 			y: 0
-			reload: 60
+			reload: 30
 			mirror: true
 			alternate: true
 			inaccuracy: 5
@@ -25,7 +25,7 @@
 				damage: 20
 				
 				splashDamage: 20
-				splashDamageRadius: 10
+				splashDamageRadius: 20
 				
 				lifetime: 20
 				speed: 4.5
@@ -42,6 +42,34 @@
 				
 				width: 6
 				height: 8
+				
+				hitEffect: [
+					{
+						type: WaveEffect
+						sides: 0
+						sizeFrom: 0
+						sizeTo: 20
+						strokeFrom: 5
+						strokeTo: 0
+						lifetime: 60
+						colorFrom: FF795EFF
+						colorTo: C85C5100
+					}
+				]
+				
+				despawnEffect: [
+					{
+						type: WaveEffect
+						sides: 0
+						sizeFrom: 0
+						sizeTo: 20
+						strokeFrom: 5
+						strokeTo: 0
+						lifetime: 60
+						colorFrom: FF795EFF
+						colorTo: C85C5100
+					}
+				]
 			}
 		}
 	]
