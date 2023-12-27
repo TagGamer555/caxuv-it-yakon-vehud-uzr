@@ -1,0 +1,46 @@
+{
+	name: "[red]Blast Compound[] Mech"
+	description: Fires exploding projectiles.
+	
+	health: 300
+	armor: 3
+	speed: 2
+	
+	canBoost: true
+	buildSpeed: 1
+	itemCapacity: 30
+	
+	weapons: [
+		{
+			name: mech-bc-weapon
+			x: 4.5
+			y: 0
+			reload: 60
+			mirror: true
+			alternate: true
+			inaccuracy: 5
+			bullet: {
+				damage: 20
+				
+				splashDamage: 20
+				splashDamageRadius: 10
+				
+				lifetime: 20
+				speed: 4.5
+				
+				shootEffect: shootSmall
+				smokeEffect: shootSmallSmoke
+				
+				frontColor: FF795E
+				backColor: C85C51
+				
+				trailLength: 12
+				trailWidth: 1
+				trailColor: C85C51
+				
+				width: 6
+				height: 8
+			}
+		}
+	]
+}
