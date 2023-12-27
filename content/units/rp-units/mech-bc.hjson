@@ -4,7 +4,7 @@
 	
 	health: 300
 	armor: 1.25
-	speed: 2
+	speed: 0.7
 	
 	flying: false
 	canBoost: true
@@ -15,7 +15,8 @@
 	weapons: [
 		{
 			name: mech-bc-weapon
-			x: 6
+			top: false
+			x: 4.5
 			y: 0
 			reload: 30
 			mirror: true
@@ -49,9 +50,9 @@
 						sides: 0
 						sizeFrom: 0
 						sizeTo: 20
-						strokeFrom: 5
+						strokeFrom: 3
 						strokeTo: 0
-						lifetime: 60
+						lifetime: 20
 						colorFrom: FF795EFF
 						colorTo: C85C5100
 					}
@@ -63,9 +64,9 @@
 						sides: 0
 						sizeFrom: 0
 						sizeTo: 20
-						strokeFrom: 5
+						strokeFrom: 3
 						strokeTo: 0
-						lifetime: 60
+						lifetime: 20
 						colorFrom: FF795EFF
 						colorTo: C85C5100
 					}
