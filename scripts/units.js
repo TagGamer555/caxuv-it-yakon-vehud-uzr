@@ -1,8 +1,8 @@
 {
 	//region - everything
 	const wtt = extend(UnitType, "wtt", {});
-	wtt.constructor = () => extend(MechUnit, {});
+	wtt.constructor = () => extend(Mech, {});
 	
 	const mechBc = extend(UnitType, "mech-bc", {});
-	mechBc.constructor = () => extend(MechUnit, {});
+	mechBc.constructor = () => extend(Mech, {});
 }
