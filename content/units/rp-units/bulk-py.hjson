@@ -14,7 +14,7 @@
 	
 	weapons: [
 		{
-			name: mech-py-weapon
+			name: bulk-py-weapon
 			top: false
 			x: 4.5
 			y: 0
@@ -28,8 +28,8 @@
 				status: burning
 				statusDuration: 120
 				
-				lifetime: 15
-				speed: 6
+				lifetime: 12.5
+				speed: 8
 				
 				pierce: true
 				pierceCap: 2
