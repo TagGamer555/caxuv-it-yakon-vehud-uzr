@@ -10,4 +10,7 @@
 	
 	const bulkBc = extend(UnitType, "bulk-bc", {});
 	bulkBc.constructor = () => extend(MechUnit, {});
+	// PYRATITE //
+	const mechPy = extend(UnitType, "mech-py", {});
+	mechPy.constructor = () => extend(MechUnit, {});
 }
