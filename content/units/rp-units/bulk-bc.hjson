@@ -24,6 +24,7 @@
 			inaccuracy: 5
 			shoot: {
 				shots: 5
+				shotDelay: 5
 			}
 			bullet: {
 				damage: 5
@@ -33,7 +34,7 @@
 				
 				lifetime: 20
 				speed: 4.5
-				velocityRnd: 0.2
+				velocityRnd: 0
 				
 				shootEffect: shootSmall
 				smokeEffect: shootSmallSmoke
