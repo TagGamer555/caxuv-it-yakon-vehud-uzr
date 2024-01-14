@@ -2,7 +2,7 @@
 	name: "[red]Blast Compound[] Mech"
 	description: Fires exploding bullets.
 	
-	health: 300
+	health: 240
 	armor: 1.25
 	speed: 0.5
 	
@@ -26,7 +26,7 @@
 				damage: 20
 				
 				splashDamage: 20
-				splashDamageRadius: 20
+				splashDamageRadius: 40
 				
 				lifetime: 20
 				speed: 4.5

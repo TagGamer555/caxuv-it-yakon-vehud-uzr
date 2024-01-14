@@ -2,7 +2,7 @@
 	name: "[orange]Pyratite[] Mech"
 	description: Fires flaming bullets.
 	
-	health: 300
+	health: 240
 	armor: 1.25
 	speed: 0.5
 	
@@ -40,13 +40,13 @@
 				trailLength: 12
 				trailWidth: 1
 				trailColor: D37F47
-				trailChance: 0.5
+				trailChance: 0.75
 				trailEffect: [
 					{
 						type: ParticleEffect
 						particles: 1
 						lifetime: 30
-						sizeFrom: 2
+						sizeFrom: 1.75
 						sizeTo: 0
 						length: 5
 						colorFrom: FFAA5FFF
