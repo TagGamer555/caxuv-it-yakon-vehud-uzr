@@ -16,7 +16,7 @@
 		{
 			name: bulk-py-weapon
 			top: false
-			x: 4.5
+			x: 5
 			y: 0
 			reload: 20
 			mirror: true

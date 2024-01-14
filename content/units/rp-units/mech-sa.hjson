@@ -1,0 +1,76 @@
+{
+	name: "[yellow]Surge Alloy[] Mech"
+	description: Fires electric shocks.
+	
+	health: 240
+	armor: 1.25
+	speed: 0.5
+	
+	flying: false
+	canBoost: true
+	
+	buildSpeed: 1
+	itemCapacity: 30
+	
+	weapons: [
+		{
+			name: mech-sa-weapon
+			top: false
+			x: 4.5
+			y: 0
+			reload: 20
+			mirror: true
+			alternate: true
+			shoot: {
+				type: ShootSpread
+				shots: 5
+				spread: 6
+				shotDelay: 2
+			}
+			inaccuracy: 5
+			bullet: {
+				type: LightningBulletType
+				
+				lightningLength: 15
+				
+				damage: 10
+				
+				lightningColor: FCF387
+				
+				status: none
+				
+				pierceArmor: false
+				
+				ammoMultiplier: 1
+				
+				hitEffect: [
+					{
+						type: WaveEffect
+						sides: 0
+						sizeFrom: 0
+						sizeTo: 5
+						strokeFrom: 2
+						strokeTo: 0
+						lifetime: 20
+						colorFrom: FCF387FF
+						colorTo: E8D17400
+					}
+				]
+				
+				despawnEffect: [
+					{
+						type: WaveEffect
+						sides: 0
+						sizeFrom: 0
+						sizeTo: 5
+						strokeFrom: 2
+						strokeTo: 0
+						lifetime: 20
+						colorFrom: FCF387FF
+						colorTo: E8D17400
+					}
+				]
+			}
+		}
+	]
+}
