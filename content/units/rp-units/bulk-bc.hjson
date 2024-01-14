@@ -1,35 +1,39 @@
 {
-	name: "[red]Blast Compound[] Mech"
-	description: Fires exploding bullets.
+	name: "[red]Blast Compound[] Bulk"
+	description: Fires salvo of exploding bullets.
 	
-	health: 300
-	armor: 1.25
-	speed: 0.5
+	health: 450
+	armor: 2.5
+	speed: 0.4
 	
 	flying: false
 	canBoost: true
 	
 	buildSpeed: 1
-	itemCapacity: 30
+	itemCapacity: 45
 	
 	weapons: [
 		{
-			name: mech-bc-weapon
+			name: bulk-bc-weapon
 			top: false
-			x: 4.5
+			x: 5
 			y: 0
-			reload: 30
+			reload: 45
 			mirror: true
 			alternate: true
 			inaccuracy: 5
+			shoot: {
+				shots: 5
+			}
 			bullet: {
-				damage: 20
+				damage: 5
 				
-				splashDamage: 20
-				splashDamageRadius: 20
+				splashDamage: 5
+				splashDamageRadius: 5
 				
 				lifetime: 20
 				speed: 4.5
+				velocityRnd: 0.2
 				
 				shootEffect: shootSmall
 				smokeEffect: shootSmallSmoke
@@ -49,10 +53,10 @@
 						type: WaveEffect
 						sides: 0
 						sizeFrom: 0
-						sizeTo: 20
-						strokeFrom: 3
+						sizeTo: 5
+						strokeFrom: 2
 						strokeTo: 0
-						lifetime: 20
+						lifetime: 10
 						colorFrom: FF795EFF
 						colorTo: C85C5100
 					}
@@ -63,10 +67,10 @@
 						type: WaveEffect
 						sides: 0
 						sizeFrom: 0
-						sizeTo: 20
-						strokeFrom: 3
+						sizeTo: 5
+						strokeFrom: 2
 						strokeTo: 0
-						lifetime: 20
+						lifetime: 10
 						colorFrom: FF795EFF
 						colorTo: C85C5100
 					}
