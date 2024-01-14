@@ -17,4 +17,8 @@
 	
 	const bulkPy = extend(UnitType, "bulk-py", {});
 	bulkPy.constructor = () => extend(MechUnit, {});
+	
+	// SURGE ALLOY //
+	const mechSa = extend(UnitType, "mech-sa", {});
+	mechSa.constructor = () => extend(MechUnit, {});
 }
