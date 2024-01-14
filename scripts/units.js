@@ -14,4 +14,7 @@
 	// PYRATITE //
 	const mechPy = extend(UnitType, "mech-py", {});
 	mechPy.constructor = () => extend(MechUnit, {});
+	
+	const bulkPy = extend(UnitType, "bulk-py", {});
+	bulkPy.constructor = () => extend(MechUnit, {});
 }

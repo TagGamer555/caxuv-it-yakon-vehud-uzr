@@ -1,0 +1,93 @@
+{
+	name: "[orange]Pyratite[] Bulk"
+	description: Fires high-velocity flaming bullets.
+	
+	health: 450
+	armor: 2.5
+	speed: 0.4
+	
+	flying: false
+	canBoost: true
+	
+	buildSpeed: 1
+	itemCapacity: 30
+	
+	weapons: [
+		{
+			name: mech-py-weapon
+			top: false
+			x: 4.5
+			y: 0
+			reload: 20
+			mirror: true
+			alternate: true
+			inaccuracy: 5
+			bullet: {
+				damage: 30
+				
+				status: burning
+				statusDuration: 120
+				
+				lifetime: 15
+				speed: 6
+				
+				pierce: true
+				pierceCap: 2
+				
+				shootEffect: shootSmall
+				smokeEffect: shootSmallSmoke
+				
+				frontColor: FFAA5F
+				backColor: D37F47
+				
+				trailLength: 12
+				trailWidth: 1
+				trailColor: D37F47
+				trailChance: 0.75
+				trailEffect: [
+					{
+						type: ParticleEffect
+						particles: 1
+						lifetime: 30
+						sizeFrom: 1.75
+						sizeTo: 0
+						length: 5
+						colorFrom: FFAA5FFF
+						colorTo: 88888800
+					}
+				]
+				
+				width: 6
+				height: 8
+				
+				hitEffect: [
+					{
+						type: WaveEffect
+						sides: 0
+						sizeFrom: 0
+						sizeTo: 5
+						strokeFrom: 2
+						strokeTo: 0
+						lifetime: 20
+						colorFrom: FFAA5FFF
+						colorTo: D37F4700
+					}
+				]
+				
+				despawnEffect: [
+					{
+						type: WaveEffect
+						sides: 0
+						sizeFrom: 0
+						sizeTo: 5
+						strokeFrom: 2
+						strokeTo: 0
+						lifetime: 20
+						colorFrom: FFAA5FFF
+						colorTo: D37F4700
+					}
+				]
+			}
+		}
+	]
+}
