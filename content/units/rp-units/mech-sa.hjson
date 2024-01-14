@@ -21,19 +21,17 @@
 			reload: 20
 			mirror: true
 			alternate: true
+			shootSound: spark
 			shoot: {
-				type: ShootSpread
-				shots: 5
-				spread: 6
-				shotDelay: 2
+				shots: 3
 			}
 			inaccuracy: 5
 			bullet: {
 				type: LightningBulletType
 				
-				lightningLength: 15
+				lightningLength: 10
 				
-				damage: 10
+				damage: 7.5
 				
 				lightningColor: FCF387
 				
