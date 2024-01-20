@@ -3,5 +3,7 @@
 	const drb = extend(PowerTurret, "drb", {});
 	const frb = extend(PowerTurret, "frb", {});
 	
-	//// MAP-SPECIFIC ////
+	//// PRODUCTION ////
+	//////// EXTRACTION ////
+	const thoriumConcentrator = extend(GenericCrafter, "thorium-concentrator", {});
 }

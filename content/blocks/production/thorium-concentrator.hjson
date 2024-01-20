@@ -1,0 +1,36 @@
+{
+	name: Thorium Concentrator
+	description: "Extracts thorium from background radiation due to extreme cold of the cryofluid."
+	
+	consumes: {
+		liquid: cryofluid/0.05
+	}
+	
+	size: 1
+	squareSprite: true
+	# research: none
+	craftTime: 180
+	category: production
+	
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawDefault
+			}
+		]
+	}
+	
+	hasItems: true
+	liquidCapacity: 6
+	itemCapacity: 30
+	health: 200
+	
+	requirements: [
+		graphite/60
+		thorium/45
+		titanium/90
+	]
+	
+	outputItem: thorium/1
+}
