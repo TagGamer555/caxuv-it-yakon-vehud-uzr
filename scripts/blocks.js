@@ -12,4 +12,5 @@
 	
 	//// CRAFTING ////
 	const arkyciteCrafter = extend(GenericCrafter, "arkycite-crafter", {});
+	const ozoneSynthesizer = extend(GenericCrafter, "ozone-synthesizer", {});
 }

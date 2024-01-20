@@ -1,0 +1,40 @@
+{
+	name: Ozone Synthesizer
+	description: "Synthesizes ozone from phase fabric. Outputs thorium and sand as by-products."
+	
+	consumes: {
+		item: phase-fabric/2
+		power: 1.5
+	}
+	
+	size: 2
+	squareSprite: false
+	// research: none
+	craftTime: 600
+	category: crafting
+	
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawDefault
+			}
+		]
+	}
+	
+	hasItems: true
+	liquidCapacity: 30
+	health: 300
+	
+	requirements: [
+		plastanium/50
+		silicon/30
+		lead/80
+	]
+	
+	outputLiquid: ozone/1
+	outputItems: [
+		sand/3
+		thorium/1
+	]
+}
