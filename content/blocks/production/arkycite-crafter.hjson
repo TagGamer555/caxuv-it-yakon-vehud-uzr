@@ -9,7 +9,7 @@
 	
 	size: 1
 	squareSprite: true
-	# research: none
+	//research: none
 	craftTime: 60
 	category: production
 	
@@ -32,5 +32,5 @@
 		metaglass/30
 	]
 	
-	outputLiquid: arkycite/0.08333333333333333 #...
+	outputLiquid: arkycite/0.08333333333333333 //...
 }
