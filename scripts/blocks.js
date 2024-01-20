@@ -18,7 +18,7 @@
 	const uc = extend(Conduit, "uc", {});
 	
 	//// DROID TURRETS ////
-	const droidCopper = extend(PowerTurret, "droid-copper", {});
+	const droidCopper = extend(ItemTurret, "droid-copper", {});
 	
 	//// DEFENSE ////
 	const surgeBlock = extend(Wall, "surge-block", {});
