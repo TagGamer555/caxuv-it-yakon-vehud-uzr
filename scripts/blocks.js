@@ -16,4 +16,10 @@
 	
 	//// LIQUID ////
 	const uc = extend(Conduit, "uc", {});
+	
+	//// DROID TURRETS ////
+	const droidCopper = extend(PowerTurret, "droid-copper", {});
+	
+	//// DEFENSE ////
+	const surgeBlock = extend(Wall, "surge-block", {});
 }

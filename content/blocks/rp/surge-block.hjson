@@ -1,0 +1,11 @@
+{
+	name: Surge Block
+	description: "Specially treated block of surge. While it lost it's defensive properties, it is considered to be extremely valuable."
+	health: 200
+	size: 1
+	requirements: [
+		surge-alloy/10
+	]
+	category: effect
+	// research: none
+}

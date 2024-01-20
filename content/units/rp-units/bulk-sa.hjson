@@ -1,0 +1,71 @@
+{
+	name: "[yellow]Surge Alloy[] Bulk"
+	description: Fires electrical lightning.
+	
+	health: 450
+	armor: 2.5
+	speed: 0.4
+	
+	flying: false
+	canBoost: true
+	
+	buildSpeed: 1
+	itemCapacity: 30
+	
+	weapons: [
+		{
+			name: bulk-sa-weapon
+			top: false
+			x: 4.5
+			y: 0
+			reload: 40
+			mirror: true
+			alternate: true
+			shootSound: spark
+			inaccuracy: 5
+			bullet: {
+				type: LightningBulletType
+				
+				lightningLength: 20
+				
+				damage: 20
+				
+				lightningColor: FCF387
+				
+				status: none
+				
+				pierceArmor: false
+				
+				ammoMultiplier: 1
+				
+				hitEffect: [
+					{
+						type: WaveEffect
+						sides: 0
+						sizeFrom: 0
+						sizeTo: 5
+						strokeFrom: 2
+						strokeTo: 0
+						lifetime: 20
+						colorFrom: FCF387FF
+						colorTo: E8D17400
+					}
+				]
+				
+				despawnEffect: [
+					{
+						type: WaveEffect
+						sides: 0
+						sizeFrom: 0
+						sizeTo: 5
+						strokeFrom: 2
+						strokeTo: 0
+						lifetime: 20
+						colorFrom: FCF387FF
+						colorTo: E8D17400
+					}
+				]
+			}
+		}
+	]
+}

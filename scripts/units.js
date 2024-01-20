@@ -21,4 +21,7 @@
 	// SURGE ALLOY //
 	const mechSa = extend(UnitType, "mech-sa", {});
 	mechSa.constructor = () => extend(MechUnit, {});
+	
+	const bulkSa = extend(UnitType, "bulk-sa", {});
+	bulkSa.constructor = () => extend(MechUnit, {});
 }
