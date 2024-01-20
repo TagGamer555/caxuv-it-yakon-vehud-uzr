@@ -1,0 +1,35 @@
+{
+	name: Arkycite Crafter
+	description: "Crafts arkycite from oil."
+	
+	consumes: {
+		liquid: oil/0.05
+	}
+	
+	size: 1
+	squareSprite: true
+	# research: none
+	craftTime: 60
+	category: production
+	
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawDefault
+			}
+		]
+	}
+	
+	hasItems: false
+	liquidCapacity: 3
+	health: 400
+	
+	requirements: [
+		graphite/50
+		titanium/60
+		metaglass/30
+	]
+	
+	outputLiquid: arkycite/0.0125
+}

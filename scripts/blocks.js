@@ -6,4 +6,7 @@
 	//// PRODUCTION ////
 	//////// EXTRACTION ////
 	const thoriumConcentrator = extend(GenericCrafter, "thorium-concentrator", {});
+	
+	//// CRAFTING ////
+	const arkyciteCrafter = extend(GenericCrafter, "arkycite-crafter", {});
 }
