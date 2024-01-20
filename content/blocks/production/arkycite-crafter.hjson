@@ -3,7 +3,8 @@
 	description: "Crafts arkycite from oil."
 	
 	consumes: {
-		liquid: oil/0.05
+		liquid: oil/0.0125
+		power: 0.5
 	}
 	
 	size: 1
@@ -31,5 +32,5 @@
 		metaglass/30
 	]
 	
-	outputLiquid: arkycite/0.0125
+	outputLiquid: arkycite/0.08333333333333333 #...
 }
