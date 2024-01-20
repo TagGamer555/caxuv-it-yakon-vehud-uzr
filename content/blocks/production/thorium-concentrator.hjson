@@ -8,7 +8,7 @@
 	
 	size: 1
 	squareSprite: true
-	# research: none
+	// research: none
 	craftTime: 180
 	category: production
 	

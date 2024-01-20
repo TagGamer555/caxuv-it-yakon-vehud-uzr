@@ -1,0 +1,37 @@
+{
+	name: Beryllium Extractor
+	description: "Extracts beryllium from the ground. Requires slag to do so."
+	
+	consumes: {
+		liquid: slag/0.1666666666666666666
+		power: 0.75
+	}
+	
+	size: 2
+	squareSprite: true
+	// research: none
+	craftTime: 90
+	category: production
+	
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawDefault
+			}
+		]
+	}
+	
+	hasItems: true
+	liquidCapacity: 20
+	itemCapacity: 16
+	health: 300
+	
+	requirements: [
+		copper/90
+		metaglass/40
+		graphite/75
+	]
+	
+	outputItem: beryllium/4
+}

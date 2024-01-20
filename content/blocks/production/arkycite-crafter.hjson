@@ -9,9 +9,9 @@
 	
 	size: 1
 	squareSprite: true
-	//research: none
+	// research: none
 	craftTime: 60
-	category: production
+	category: crafting
 	
 	drawer: {
 		type: DrawMulti

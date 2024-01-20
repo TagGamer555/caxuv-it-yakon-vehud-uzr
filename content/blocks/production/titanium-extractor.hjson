@@ -1,0 +1,37 @@
+{
+	name: Titanium Extractor
+	description: "Extracts titanium from the ground. Requires akycite to do so."
+	
+	consumes: {
+		liquid: arkycite/0.333333333333333333333333
+		power: 1
+	}
+	
+	size: 2
+	squareSprite: true
+	// research: none
+	craftTime: 90
+	category: production
+	
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawDefault
+			}
+		]
+	}
+	
+	hasItems: true
+	liquidCapacity: 40
+	itemCapacity: 15
+	health: 450
+	
+	requirements: [
+		beryllium/30
+		silicon/40
+		tungsten/30
+	]
+	
+	outputItem: titanium/3
+}

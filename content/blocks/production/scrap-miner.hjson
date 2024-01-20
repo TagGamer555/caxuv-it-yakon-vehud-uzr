@@ -1,0 +1,36 @@
+{
+	name: Scrap Miner
+	description: "Mines scrap from underground ancient remains. Requires solid fuel."
+	
+	consumes: {
+		itemFlammable: {}
+		power: 0.5
+	}
+	
+	size: 2
+	squareSprite: true
+	// research: none
+	craftTime: 30
+	category: production
+	
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawDefault
+			}
+		]
+	}
+	
+	hasItems: true
+	itemCapacity: 20
+	health: 550
+	
+	requirements: [
+		graphite/40
+		oxide/30
+		thorium/75
+	]
+	
+	outputItem: scrap/2
+}
