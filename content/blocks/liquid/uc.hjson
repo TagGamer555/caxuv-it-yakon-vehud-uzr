@@ -1,0 +1,15 @@
+{
+	name: Underground Conduit
+	description: "Conduit, capable of storing vast liquid amounts underground. Armored."
+	health: 90
+	armor: 5
+	category: liquid
+	// research: none
+	liquidCapacity: 60
+	requirements: [
+		titanium/2
+		thorium/2
+		silicon/2
+		graphite/2
+	]
+}
