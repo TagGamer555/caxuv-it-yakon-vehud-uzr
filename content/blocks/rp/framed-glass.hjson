@@ -1,0 +1,12 @@
+{
+	name: Framed Glass
+	description: "Glass in regular copper frame."
+	health: 80
+	size: 1
+	requirements: [
+		copper/2
+		metaglass/4
+	]
+	category: effect
+	// research: none
+}

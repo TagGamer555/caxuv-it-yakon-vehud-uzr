@@ -1,0 +1,13 @@
+{
+	name: Reinforced Framed Glass
+	description: "Glass in regular tungsten frame."
+	health: 160
+	armor: 20
+	size: 1
+	requirements: [
+		tungsten/2
+		metaglass/4
+	]
+	category: effect
+	// research: none
+}
