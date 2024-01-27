@@ -1,35 +1,35 @@
 {
-	name: Droid Turret (Titanium)
-	description: "Droid Turrets are sentient turrets which have an advanced AI. Fires titanium-charged laser."
+	name: Droid Turret (Thorium)
+	description: "Droid Turrets are sentient turrets which have an advanced AI. Fires thorium-charged laser."
 	
 	health: 500
 	armor: 8
-	reload: 90
+	reload: 30
 	recoil: 0.2
 	rotateSpeed: 5
-	shootSound: laser
+	shootSound: shootBig
 	
 	squareSprite: false
 	requirements: [
 		surge-alloy/6
 		silicon/12
 		
-		titanium/20
+		thorium/20
 	]
 	liquidCapacity: 12
 	size: 1
 	range: 100
 	inaccuracy: 0
 	ammoTypes: {
-		titanium: {
-			type: LaserBulletType
+		thorium: {
+			type: ShrapnelBulletType
 			
-			length: 90
-			width: 7.5
+			length: 100
+			width: 10
 			
-			damage: 40
+			damage: 10
 			
-			colors: [8AA3F4, FFFFFF, 8AA3F47F]
+			toColor: F9A3C7
 			
 			pierce: true
 			pierceCap: 2

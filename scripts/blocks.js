@@ -5,10 +5,10 @@
 	
 	//// PRODUCTION ////
 	//////// EXTRACTION ////
-	const thoriumConcentrator = extend(GenericCrafter, "thorium-concentrator", {});
-	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
-	const berylliumExtractor = extend(GenericCrafter, "beryllium-extractor", {});
 	const scrapMiner = extend(GenericCrafter, "scrap-miner", {});
+	const berylliumExtractor = extend(GenericCrafter, "beryllium-extractor", {});
+	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
+	const thoriumConcentrator = extend(GenericCrafter, "thorium-concentrator", {});
 	
 	//// CRAFTING ////
 	const arkyciteCrafter = extend(GenericCrafter, "arkycite-crafter", {});
