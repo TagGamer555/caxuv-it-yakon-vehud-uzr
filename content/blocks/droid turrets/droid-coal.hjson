@@ -40,8 +40,8 @@
 			pierce: true
 			
 			lifetime: 60
-			speed: 8
-			drag: 0.0005
+			speed: 10
+			drag: 0.01
 			
 			ammoMultiplier: 8
 			reloadMultiplier: 1
