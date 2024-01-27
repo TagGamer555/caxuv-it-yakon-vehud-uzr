@@ -22,7 +22,7 @@
 		coal/20
 	]
 	liquidCapacity: 12
-	velocityRnd: 0.2
+	velocityRnd: -0.1
 	size: 1
 	range: 100
 	inaccuracy: 5
@@ -34,8 +34,8 @@
 			shrinkY: 0
 			shrinkX: 0
 			
-			shrinkY: 0
 			damage: 8
+			pierceArmor: true
 			
 			status: burning
 			statusDuration: 24
