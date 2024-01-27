@@ -28,8 +28,8 @@
 	inaccuracy: 15
 	ammoTypes: {
 		coal: {
-			width: 6
-			height: 4
+			width: 9
+			height: 7
 			
 			shrinkY: 0
 			shrinkX: 0
@@ -52,13 +52,13 @@
 			ammoMultiplier: 8
 			reloadMultiplier: 1
 			
-			trailChance: 0.05
+			trailChance: 0.1
 			trailEffect: [
 				{
 					type: ParticleEffect
 					particles: 3
 					lifetime: 60
-					sizeFrom: 3
+					sizeFrom: 2
 					sizeTo: 0
 					length: 20
 					colorFrom: FFAA5FFF
@@ -71,7 +71,7 @@
 					type: ParticleEffect
 					particles: 6
 					lifetime: 90
-					sizeFrom: 5
+					sizeFrom: 3
 					sizeTo: 0
 					length: 40
 					colorFrom: FFAA5FFF
