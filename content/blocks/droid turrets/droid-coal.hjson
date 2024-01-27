@@ -24,7 +24,7 @@
 	liquidCapacity: 12
 	velocityRnd: 0.2
 	size: 1
-	range: 50
+	range: 100
 	inaccuracy: 5
 	ammoTypes: {
 		coal: {
@@ -41,12 +41,11 @@
 			statusDuration: 24
 			
 			trailColor: FFAA5F
-			trailWidth: 0.1
+			trailWidth: 0.5
 			trailLength: 6
 			
-			lifetime: 10
-			speed: 5
-			drag: 0.1
+			lifetime: 5
+			speed: 20
 			
 			ammoMultiplier: 8
 			reloadMultiplier: 1
