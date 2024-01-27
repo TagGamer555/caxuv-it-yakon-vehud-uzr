@@ -1,13 +1,13 @@
 {
 	name: Droid Turret (Coal)
-	description: "Droid Turrets are sentient turrets which have an advanced AI. Fires stream of fire particles."
+	description: "Droid Turrets are sentient turrets which have an advanced AI. Fires supersonic bullets rapidly."
 	
 	health: 500
 	armor: 8
 	reload: 12
 	recoil: 0.2
 	rotateSpeed: 5
-	shootSound: flame
+	shootSound: shootSnap
 	
 	shoot: {
 		shots: 2
@@ -49,6 +49,20 @@
 			
 			ammoMultiplier: 8
 			reloadMultiplier: 1
+			
+			trailChance: 0.25
+			trailEffect: [
+				{
+					type: ParticleEffect
+					particles: 1
+					lifetime: 45
+					sizeFrom: 2
+					sizeTo: 0
+					length: 10
+					colorFrom: FFAA5FFF
+					colorTo: 88888800
+				}
+			]
 			
 			despawnEffect: [
 				{
