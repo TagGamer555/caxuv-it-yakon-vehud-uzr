@@ -1,20 +1,25 @@
 {
-	name: Droid Turret (Titanium)
-	description: "Droid Turrets are sentient turrets which have an advanced AI. Fires titanium-charged laser."
+	name: Droid Turret (Metaglass)
+	description: "Droid Turrets are sentient turrets which have an advanced AI. Fires metaglass-charged barrage of beams."
 	
 	health: 500
 	armor: 8
-	reload: 90
+	reload: 150
 	recoil: 0.2
 	rotateSpeed: 5
-	shootSound: laser
+	shootSound: blaster
+	
+	shoot: {
+		shots: 10
+		shotDelay: 10
+	}
 	
 	squareSprite: false
 	requirements: [
 		surge-alloy/6
 		silicon/12
 		
-		titanium/20
+		metaglass/20
 	]
 	liquidCapacity: 12
 	size: 1
@@ -25,14 +30,15 @@
 			type: LaserBulletType
 			
 			length: 90
-			width: 7.5
+			width: 2.5
 			
-			damage: 60
+			damage: 5
+			pierceArmor: true
 			
-			colors: [8AA3F4, FFFFFF, 8AA3F47F]
+			colors: [EBEEF5, FFFFFF, EBEEF57F]
 			
 			pierce: true
-			pierceCap: 4
+			pierceCap: 2
 			pierceBuilding: true
 			
 			ammoMultiplier: 8

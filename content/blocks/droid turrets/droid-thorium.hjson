@@ -36,7 +36,6 @@
 			
 			pierce: true
 			pierceCap: 2
-			pierceBuilding: true
 			
 			ammoMultiplier: 8
 			
