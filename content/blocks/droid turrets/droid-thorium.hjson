@@ -24,8 +24,8 @@
 		thorium: {
 			type: ShrapnelBulletType
 			
-			length: 50
-			width: 10
+			length: 60
+			width: 3
 			
 			damage: 10
 			pierceArmor: true
@@ -39,6 +39,9 @@
 			ammoMultiplier: 8
 			
 			shootEffect: none
+			smokeEffect: none
+			despawnEffect: none
+			hitEffect: none
 		}
 	}
 	category: turret
