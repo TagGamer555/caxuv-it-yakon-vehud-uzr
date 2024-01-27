@@ -1,0 +1,71 @@
+{
+	name: Droid Turret (Coal)
+	description: "Droid Turrets are sentient turrets which have an advanced AI. Fires flaming coal chunks."
+	
+	health: 500
+	armor: 8
+	reload: 120
+	recoil: 0.2
+	rotateSpeed: 5
+	shootSound: artillery
+	
+	shoot: {
+		shots: 3
+		shotDelay:0
+	}
+	
+	squareSprite: false
+	requirements: [
+		surge-alloy/6
+		silicon/12
+		
+		coal/20
+	]
+	liquidCapacity: 12
+	velocityRnd: 0.2
+	size: 1
+	range: 100
+	inaccuracy: 15
+	ammoTypes: {
+		coal: {
+			width: 6
+			height: 8
+			
+			shrinkY: 0.3
+			shrinkX: 0.3
+			
+			shrinkY: 0
+			damage: 12
+			
+			pierce: true
+			
+			lifetime: 60
+			speed: 8
+			drag: 0.0005
+			
+			ammoMultiplier: 8
+			reloadMultiplier: 1
+			
+			trailChance: 0.75
+			trailEffect: [
+				{
+					type: ParticleEffect
+					particles: 3
+					lifetime: 30
+					sizeFrom: 1.75
+					sizeTo: 0
+					length: 5
+					colorFrom: FFAA5FFF
+					colorTo: 88888800
+				}
+			]
+		}
+	}
+	category: turret
+	// research: none
+	
+	drawer: {
+		type: DrawTurret
+		basePrefix: "reinforced-"
+	}
+}
