@@ -50,13 +50,13 @@
 			ammoMultiplier: 8
 			reloadMultiplier: 1
 			
-			trailChance: 0.25
+			trailChance: 0.5
 			trailEffect: [
 				{
 					type: ParticleEffect
 					particles: 1
 					lifetime: 45
-					sizeFrom: 2
+					sizeFrom: 1
 					sizeTo: 0
 					length: 10
 					colorFrom: FFAA5FFF
