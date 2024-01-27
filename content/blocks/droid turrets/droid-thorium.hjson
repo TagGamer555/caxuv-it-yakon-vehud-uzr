@@ -29,7 +29,7 @@
 			
 			serrations: 0
 			
-			damage: 10
+			damage: 40
 			pierceArmor: true
 			
 			toColor: F9A3C7
