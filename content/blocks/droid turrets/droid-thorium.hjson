@@ -24,10 +24,10 @@
 		thorium: {
 			type: ShrapnelBulletType
 			
-			length: 75
-			width: 5
+			length: 110
+			width: 7.5
 			
-			rippleLength: 10
+			serrations: 0
 			
 			damage: 10
 			pierceArmor: true
