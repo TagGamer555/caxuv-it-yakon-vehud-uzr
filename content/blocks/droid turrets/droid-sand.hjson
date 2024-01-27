@@ -1,0 +1,94 @@
+{
+	name: Droid Turret (Sand)
+	description: "Droid Turrets are sentient turrets which have an advanced AI. Fires stream of sand."
+	
+	health: 500
+	armor: 8
+	reload: 4
+	recoil: 0.2
+	rotateSpeed: 5
+	shootSound: flame
+	
+	squareSprite: false
+	requirements: [
+		surge-alloy/6
+		silicon/12
+		
+		sand/20
+	]
+	liquidCapacity: 12
+	size: 1
+	range: 100
+	inaccuracy: 0
+	ammoTypes: {
+		sand: {
+			width: 0
+			height: 0
+			
+			shrinkY: 0
+			shrinkX: 0
+			
+			damage: 3
+			pierceArmor: true
+			
+			pierce: true
+			pierceCap: 3
+			
+			status: slow
+			statusDuration: 8
+			
+			lifetime: 2
+			speed: 50
+			
+			ammoMultiplier: 8
+			reloadMultiplier: 1
+			
+			trailChance: 0.75
+			trailEffect: [
+				{
+					type: ParticleEffect
+					particles: 1
+					lifetime: 45
+					sizeFrom: 1
+					sizeTo: 0
+					length: 10
+					colorFrom: F7CBA4FF
+					colorTo: D3AE8D00
+				}
+			]
+			
+			despawnEffect: [
+				{
+					type: ParticleEffect
+					particles: 3
+					lifetime: 30
+					sizeFrom: 2
+					sizeTo: 0
+					length: 20
+					colorFrom: F7CBA4FF
+					colorTo: D3AE8D00
+				}
+			]
+			
+			hitEffect: [
+				{
+					type: ParticleEffect
+					particles: 3
+					lifetime: 30
+					sizeFrom: 2
+					sizeTo: 0
+					length: 20
+					colorFrom: F7CBA4FF
+					colorTo: D3AE8D00
+				}
+			]
+		}
+	}
+	category: turret
+	// research: none
+	
+	drawer: {
+		type: DrawTurret
+		basePrefix: "reinforced-"
+	}
+}

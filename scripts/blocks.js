@@ -21,6 +21,7 @@
 	const droidCopper = extend(ItemTurret, "droid-copper", {});
 	const droidLead = extend(ItemTurret, "droid-lead", {});
 	const droidCoal = extend(ItemTurret, "droid-coal", {});
+	const droidSand = extend(ItemTurret, "droid-sand", {});
 	
 	//// OTHER ////
 	const surgeBlock = extend(Wall, "surge-block", {});
