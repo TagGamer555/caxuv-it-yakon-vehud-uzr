@@ -37,8 +37,8 @@
 			status: slow
 			statusDuration: 8
 			
-			lifetime: 2
-			speed: 50
+			lifetime: 10
+			speed: 10
 			
 			ammoMultiplier: 8
 			reloadMultiplier: 1
