@@ -1,0 +1,48 @@
+{
+	name: Droid Turret (Titanium)
+	description: "Droid Turrets are sentient turrets which have an advanced AI. Fires titanium-charged laser."
+	
+	health: 500
+	armor: 8
+	reload: 90
+	recoil: 0.2
+	rotateSpeed: 5
+	shootSound: laser
+	
+	squareSprite: false
+	requirements: [
+		surge-alloy/6
+		silicon/12
+		
+		titanium/20
+	]
+	liquidCapacity: 12
+	size: 1
+	range: 100
+	inaccuracy: 0
+	ammoTypes: {
+		titanium: {
+			type: LaserBulletType
+			
+			length: 80
+			width: 10
+			
+			damage: 40
+			
+			colors: [8AA3F4, FFFFFF, 8AA3F47F]
+			
+			pierce: true
+			pierceCap: 2
+			pierceBuilding: true
+			
+			ammoMultiplier: 8
+		}
+	}
+	category: turret
+	// research: none
+	
+	drawer: {
+		type: DrawTurret
+		basePrefix: "reinforced-"
+	}
+}
