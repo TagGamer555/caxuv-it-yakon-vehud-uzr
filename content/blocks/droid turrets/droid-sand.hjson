@@ -37,8 +37,8 @@
 			status: slow
 			statusDuration: 8
 			
-			lifetime: 10
-			speed: 10
+			lifetime: 20
+			speed: 5
 			
 			ammoMultiplier: 8
 			reloadMultiplier: 1
@@ -47,12 +47,12 @@
 			trailEffect: [
 				{
 					type: ParticleEffect
-					particles: 1
+					particles: 3
 					lifetime: 45
 					sizeFrom: 1
 					sizeTo: 0
 					length: 10
-					colorFrom: F7CBA4FF
+					colorFrom: F7CBA480
 					colorTo: D3AE8D00
 				}
 			]
@@ -64,8 +64,8 @@
 					lifetime: 30
 					sizeFrom: 2
 					sizeTo: 0
-					length: 20
-					colorFrom: F7CBA4FF
+					length: 10
+					colorFrom: F7CBA480
 					colorTo: D3AE8D00
 				}
 			]
@@ -77,8 +77,8 @@
 					lifetime: 30
 					sizeFrom: 2
 					sizeTo: 0
-					length: 20
-					colorFrom: F7CBA4FF
+					length: 10
+					colorFrom: F7CBA480
 					colorTo: D3AE8D00
 				}
 			]
