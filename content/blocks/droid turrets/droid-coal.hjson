@@ -43,6 +43,9 @@
 			speed: 10
 			drag: 0.01
 			
+			frontColor: 404040
+			backColor: 2A2A2A
+			
 			ammoMultiplier: 8
 			reloadMultiplier: 1
 			
