@@ -41,7 +41,7 @@
 			
 			lifetime: 60
 			speed: 10
-			drag: 0.05
+			drag: 0.1
 			
 			frontColor: 404040
 			backColor: 2A2A2A
