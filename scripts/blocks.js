@@ -20,6 +20,7 @@
 	//// DROID TURRETS ////
 	const droidCopper = extend(ItemTurret, "droid-copper", {});
 	const droidLead = extend(ItemTurret, "droid-lead", {});
+	const droidMetaglass = extend(ItemTurret, "droid-metaglass", {});
 	const droidSand = extend(ItemTurret, "droid-sand", {});
 	const droidCoal = extend(ItemTurret, "droid-coal", {});
 	const droidTitanium = extend(ItemTurret, "droid-titanium", {});
