@@ -23,6 +23,7 @@
 	const droidCoal = extend(ItemTurret, "droid-coal", {});
 	const droidSand = extend(ItemTurret, "droid-sand", {});
 	const droidTitanium = extend(ItemTurret, "droid-titanium", {});
+	const droidThorium = extend(ItemTurret, "droid-thorium", {});
 	
 	//// OTHER ////
 	const surgeBlock = extend(Wall, "surge-block", {});
