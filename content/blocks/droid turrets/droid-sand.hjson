@@ -28,7 +28,7 @@
 			shrinkY: 0
 			shrinkX: 0
 			
-			damage: 3
+			damage: 5
 			pierceArmor: true
 			
 			pierce: true
@@ -37,19 +37,19 @@
 			status: slow
 			statusDuration: 8
 			
-			lifetime: 20
-			speed: 5
+			lifetime: 5
+			speed: 20
 			
 			ammoMultiplier: 8
 			reloadMultiplier: 1
 			
-			trailChance: 1
+			trailChance: 25
 			trailEffect: [
 				{
 					type: ParticleEffect
 					particles: 3
 					lifetime: 45
-					sizeFrom: 1
+					sizeFrom: 2
 					sizeTo: 0
 					length: 10
 					colorFrom: F7CBA480
