@@ -6,7 +6,7 @@
 	//// FACTION ////
 	// TOX //
 	const tox = extend(UnitType, "tox", {});
-	mechBc.constructor = () => extend(Crawl, {});
+	tox.constructor = () => extend(Crawl, {});
 	
 	//// ROLEPLAY ////
 	// BLAST COMPOUND //
