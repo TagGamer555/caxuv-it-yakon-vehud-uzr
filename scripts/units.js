@@ -3,6 +3,11 @@
 	const wtt = extend(UnitType, "wtt", {});
 	wtt.constructor = () => extend(MechUnit, {});
 	
+	//// FACTION ////
+	// TOX //
+	const tox = extend(UnitType, "tox", {});
+	mechBc.constructor = () => extend(Crawl, {});
+	
 	//// ROLEPLAY ////
 	// BLAST COMPOUND //
 	const mechBc = extend(UnitType, "mech-bc", {});
