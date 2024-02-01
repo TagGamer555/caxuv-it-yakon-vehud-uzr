@@ -8,7 +8,6 @@
 	speed: 1.2
 	armor: 8
 	
-	hitsize: 8
 	omniMovement: false
 	rotateSpeed: 2.6
 	
@@ -33,8 +32,8 @@
 			y: 1.25
 			reload: 30
 			shoot: {
-				shots: 10
-				shotDelay: 1
+				shots: 4
+				shotDelay: 0
 			}
 			mirror: false
 			top: false
@@ -49,16 +48,19 @@
 				status: corroded
 				
 				statusLength: 30
-				damage: 4
+				damage: 8
 				
 				hitColor: D2DD76
-				Color: D2DD76
+				color: D2DD76
 				
 				despawnEffect: none
-				width: 0.4
+				width: 0.2
 				
 				lifetime: 30
 				knockback: 0
+				
+				shootEffect: none
+				smokeEffect: none
 			}
 		}
 	]
