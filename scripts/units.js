@@ -6,7 +6,7 @@
 	//// FACTION ////
 	// TOX //
 	const tox = extend(UnitType, "tox", {});
-	tox.constructor = () => extend(Crawl, {});
+	tox.constructor = () => extend(Crawlc, {});
 	
 	//// ROLEPLAY ////
 	// BLAST COMPOUND //
