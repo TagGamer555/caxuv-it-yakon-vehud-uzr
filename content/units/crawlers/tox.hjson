@@ -2,11 +2,11 @@
 	name: "Tox"
 	description: "Deadly cuteness."
 	
-	health: 400
+	health: 240
 	flying: false
 	
 	speed: 1.2
-	armor: 8
+	armor: 4
 	
 	omniMovement: false
 	rotateSpeed: 2.6
@@ -20,14 +20,13 @@
 	crushDamage: 0.35
 	controller: HugAI
 	
-	segmentOffset: 3
 	segmentScl: 3
 	segmentPhase: 3
 	segmentMag: 0.5
 	
 	weapons: [
 		{
-			inaccuracy: 10
+			inaccuracy: 25
 			x: 0
 			y: 1.25
 			reload: 30
@@ -43,15 +42,13 @@
 			bullet: {
 				type: SapBulletType
 				sapStrength: 0
-				
-				length: 45
 				status: corroded
 				
-				statusLength: 30
-				damage: 8
+				statusDuration: 30
+				damage: 10
 				
 				hitColor: D2DD76
-				color: D2DD76
+				color: 84A94B
 				
 				despawnEffect: none
 				width: 0.2
