@@ -1,0 +1,18 @@
+{
+	name: Basic Crate
+	description: Small storage block. Does not increase core storage capacity.
+	
+	health: 300
+	
+	size: 1
+	itemCapacity: 50
+	
+	coreMerge: false
+	
+	research: core-shard
+	category: effect
+	
+	requirements: [
+		copper/50
+	]
+}

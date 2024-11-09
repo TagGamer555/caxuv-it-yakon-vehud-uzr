@@ -4,7 +4,9 @@
 	const frb = extend(PowerTurret, "frb", {});
 	
 	//// PRODUCTION ////
-	//////// EXTRACTION ////
+	
+	
+	//// EXTRACTION ////
 	const scrapMiner = extend(GenericCrafter, "scrap-miner", {});
 	const berylliumExtractor = extend(GenericCrafter, "beryllium-extractor", {});
 	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});
@@ -26,8 +28,19 @@
 	const droidTitanium = extend(ItemTurret, "droid-titanium", {});
 	const droidThorium = extend(ItemTurret, "droid-thorium", {});
 	
+	//// EFFECT ////
+	const basicCrate = extend(StorageBlock, "basic-crate", {});
+	const intermediateCrate = extend(StorageBlock, "intermediate-crate", {});
+	const advancedCrate = extend(StorageBlock, "advanced-crate", {});
+	const superiorCrate = extend(StorageBlock, "superior-crate", {});
+	const basicReinforcedCrate = extend(StorageBlock, "basic-reinforced-crate", {});
+	const intermediateReinforcedCrate = extend(StorageBlock, "intermediate-reinforced-crate", {});
+	const advancedReinforcedCrate = extend(StorageBlock, "advanced-reinforced-crate", {});
+	const superiorReinforcedCrate = extend(StorageBlock, "superior-reinforced-crate", {});
+	
 	//// OTHER ////
 	const surgeBlock = extend(Wall, "surge-block", {});
+	const unframedGlass = extend(Wall, "unframed-glass", {});
 	const framedGlass = extend(Wall, "framed-glass", {});
 	const reinforcedFramedGlass = extend(Wall, "reinforced-framed-glass", {});
 }

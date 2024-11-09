@@ -1,0 +1,20 @@
+{
+	name: Intermediate Reinforced Crate
+	description: Small armored storage block. Does not increase core storage capacity.
+	
+	health: 1200
+	armor: 10
+	
+	size: 1
+	itemCapacity: 100
+	
+	coreMerge: false
+	
+	research: basic-reinforced-crate
+	category: effect
+	
+	requirements: [
+		beryllium/50
+		tungsten/25
+	]
+}

@@ -1,0 +1,20 @@
+{
+	name: Superior Reinforced Crate
+	description: Small armored storage block. Does not increase core storage capacity.
+	
+	health: 2400
+	armor: 20
+	
+	size: 1
+	itemCapacity: 200
+	
+	coreMerge: false
+	
+	research: superior-reinforced-crate
+	category: effect
+	
+	requirements: [
+		beryllium/50
+		thorium/25
+	]
+}

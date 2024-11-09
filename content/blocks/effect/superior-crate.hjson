@@ -1,0 +1,19 @@
+{
+	name: Superior Crate
+	description: Small storage block. Does not increase core storage capacity.
+	
+	health: 2100
+	
+	size: 1
+	itemCapacity: 200
+	
+	coreMerge: false
+	
+	research: superior-crate
+	category: effect
+	
+	requirements: [
+		copper/50
+		surge-alloy/25
+	]
+}

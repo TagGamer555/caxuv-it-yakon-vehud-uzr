@@ -1,0 +1,20 @@
+{
+	name: Advanced Reinforced Crate
+	description: Small armored storage block. Does not increase core storage capacity.
+	
+	health: 1800
+	armor: 15
+	
+	size: 1
+	itemCapacity: 150
+	
+	coreMerge: false
+	
+	research: intermediate-reinforced-crate
+	category: effect
+	
+	requirements: [
+		beryllium/50
+		surge-alloy/25
+	]
+}

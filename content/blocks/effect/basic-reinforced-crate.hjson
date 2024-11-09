@@ -1,0 +1,19 @@
+{
+	name: Basic Reinforced Crate
+	description: Small armored storage block. Does not increase core storage capacity.
+	
+	health: 600
+	armor: 5
+	
+	size: 1
+	itemCapacity: 50
+	
+	coreMerge: false
+	
+	research: core-bastion
+	category: effect
+	
+	requirements: [
+		beryllium/50
+	]
+}

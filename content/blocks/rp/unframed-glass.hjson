@@ -1,0 +1,11 @@
+{
+	name: Unframed Glass
+	description: "Glass without a frame. Very fragile."
+	health: 20
+	size: 1
+	requirements: [
+		metaglass/4
+	]
+	category: effect
+	// research: none
+}

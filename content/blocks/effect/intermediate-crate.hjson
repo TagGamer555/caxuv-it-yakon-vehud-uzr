@@ -1,0 +1,19 @@
+{
+	name: Intermediate Crate
+	description: Small storage block. Does not increase core storage capacity.
+	
+	health: 900
+	
+	size: 1
+	itemCapacity: 100
+	
+	coreMerge: false
+	
+	research: basic-crate
+	category: effect
+	
+	requirements: [
+		copper/50
+		titanium/25
+	]
+}

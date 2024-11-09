@@ -1,0 +1,19 @@
+{
+	name: Advanced Crate
+	description: Small storage block. Does not increase core storage capacity.
+	
+	health: 1500
+	
+	size: 1
+	itemCapacity: 150
+	
+	coreMerge: false
+	
+	research: intermediate-crate
+	category: effect
+	
+	requirements: [
+		copper/50
+		thorium/25
+	]
+}
