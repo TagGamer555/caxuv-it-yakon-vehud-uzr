@@ -1,5 +1,4 @@
-  
-const mod = Vars.mods.locateMod("kiky7");
-
-require("blocks");
-require("units");
+if(typeof(require) !== "undefined"){
+	require("blocks");
+	require("units");
+}
