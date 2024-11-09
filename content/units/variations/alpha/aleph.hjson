@@ -10,7 +10,7 @@
 	accel: 0.10
 	rotateSpeed: 12.5
 	speed: 2.75
-	health: 150
+	health: 175
 	itemCapacity: 30
 	armor: 0
 	fogRadius: 0

@@ -10,10 +10,9 @@
 	accel: 0.08
 	rotateSpeed: 10
 	speed: 2
-	health: 190
-	armor: 5
+	health: 200
 	itemCapacity: 30
-	armor: 0
+	armor: 5
 	fogRadius: 0
 	hitSize: 8
 	mineSpeed: 6.5
