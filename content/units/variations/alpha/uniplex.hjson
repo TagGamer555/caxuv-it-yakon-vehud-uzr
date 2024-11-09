@@ -9,8 +9,9 @@
 	drag: 0.04
 	accel: 0.08
 	rotateSpeed: 10
-	speed: 2.5
-	health: 175
+	speed: 2
+	health: 190
+	armor: 5
 	itemCapacity: 30
 	armor: 0
 	fogRadius: 0
@@ -27,6 +28,7 @@
 			ejectEffect: casing1
 			reload: 21
 			shootCone: 3
+			inaccuracy: 4
 			rotate: false
 			mirror: true
 			bullet: {
@@ -51,12 +53,13 @@
 			ejectEffect: casing1
 			reload: 23
 			shootCone: 3
+			inaccuracy: 6
 			rotate: false
 			mirror: true
 			bullet: {
 				type: BasicBulletType
 				speed: 2
-				damage: 7
+				damage: 8
 				width: 6
 				height: 7.5
 				lifetime: 62.5

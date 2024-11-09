@@ -6,11 +6,11 @@
 	flying: true
 	engineSize: 2.5
 	engineOffset: 6
-	drag: 0.04
-	accel: 0.08
-	rotateSpeed: 10
-	speed: 2.5
-	health: 175
+	drag: 0.06
+	accel: 0.10
+	rotateSpeed: 12.5
+	speed: 2.75
+	health: 150
 	itemCapacity: 30
 	armor: 0
 	fogRadius: 0
