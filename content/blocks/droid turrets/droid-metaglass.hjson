@@ -10,7 +10,9 @@
 	shootSound: blaster
 	
 	shoot: {
+		type: ShootSpread
 		shots: 10
+		spread: 2
 		shotDelay: 10
 	}
 	
@@ -26,7 +28,7 @@
 	range: 100
 	inaccuracy: 0
 	ammoTypes: {
-		titanium: {
+		metaglass: {
 			type: LaserBulletType
 			
 			length: 90

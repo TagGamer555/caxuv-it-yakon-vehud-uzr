@@ -1,6 +1,8 @@
 {
 name: "Aleph"
 description: "Variation of [stat]Alpha[]"
+aiController: BuilderAI
+isEnemy: false
 lowAltitude: true
 flying: true
 engineSize: 2.5
