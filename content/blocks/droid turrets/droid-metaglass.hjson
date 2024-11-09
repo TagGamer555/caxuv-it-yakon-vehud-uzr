@@ -12,8 +12,8 @@
 	shoot: {
 		type: ShootSpread
 		shots: 10
-		spread: 2
-		shotDelay: 10
+		spread: 5
+		shotDelay: 1
 	}
 	
 	squareSprite: false
