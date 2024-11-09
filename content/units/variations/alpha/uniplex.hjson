@@ -1,0 +1,71 @@
+{
+	name: "Uniplex"
+	description: "Variation of [stat]Alpha[]"
+	isEnemy: false
+	lowAltitude: true
+	flying: true
+	engineSize: 2.5
+	engineOffset: 6
+	drag: 0.04
+	accel: 0.08
+	rotateSpeed: 10
+	speed: 2.5
+	health: 175
+	itemCapacity: 30
+	armor: 0
+	fogRadius: 0
+	hitSize: 8
+	mineSpeed: 6.5
+	mineTier: 1
+	buildSpeed: 0.5
+	weapons: [
+		{
+			name: uniplex-weapon-main
+			x: 2.75
+			y: 1
+			top: false
+			ejectEffect: casing1
+			reload: 19
+			shootCone: 3
+			rotate: false
+			mirror: true
+			bullet: {
+				type: BasicBulletType
+				speed: 2.5
+				damage: 9
+				width: 7
+				height: 9
+				lifetime: 50
+				
+				buildingDamageMultiplier: 0.01
+				
+				shootEffect: shootSmall
+				smokeffect: shootSmallSmoke
+			}
+		}
+		{
+			name: uniplex-weapon-extra
+			x: 1
+			y: 1.5
+			top: false
+			ejectEffect: casing1
+			reload: 21
+			shootCone: 3
+			rotate: false
+			mirror: true
+			bullet: {
+				type: BasicBulletType
+				speed: 2
+				damage: 6
+				width: 6
+				height: 7.5
+				lifetime: 45
+				
+				buildingDamageMultiplier: 0.01
+				
+				shootEffect: shootSmall
+				smokeffect: shootSmallSmoke
+			}
+		}
+	]
+}

@@ -11,6 +11,9 @@
 	const uni = extend(UnitType, "uni", {});
 	uni.constructor = () => extend(UnitEntity, {});
 	
+	const uniplex = extend(UnitType, "uniplex", {});
+	uniplex.constructor = () => extend(UnitEntity, {});
+	
 	//// FACTIONS ////
 	// TOX //
 	const tox = extend(UnitType, "tox", {});
