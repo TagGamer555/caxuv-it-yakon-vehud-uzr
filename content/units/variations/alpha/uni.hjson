@@ -25,7 +25,7 @@
 			y: 1
 			top: false
 			ejectEffect: casing1
-			reload: 17.5
+			reload: 13
 			shootCone: 3
 			rotate: false
 			mirror: true
