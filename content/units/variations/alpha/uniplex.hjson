@@ -46,7 +46,7 @@
 		{
 			name: uniplex-weapon-extra
 			x: 4.5
-			y: 1.5
+			y: 0.5
 			top: false
 			ejectEffect: casing1
 			reload: 23
