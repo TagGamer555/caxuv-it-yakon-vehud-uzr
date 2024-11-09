@@ -35,7 +35,7 @@
 				damage: 24
 				width: 6
 				height: 11
-				lifetime: 30
+				lifetime: 35
 				pierce: true
 				pierceCap: 2
 				pierceBuilding: true

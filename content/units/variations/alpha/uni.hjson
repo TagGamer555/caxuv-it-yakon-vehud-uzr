@@ -35,10 +35,10 @@
 				damage: 7
 				width: 6
 				height: 8
-				lifetime: 60
+				lifetime: 75
 				
 				homing: true
-				homingPower: 0.075
+				homingPower: 0.0075
 				homingRadius: 40
 				
 				buildingDamageMultiplier: 0.01
