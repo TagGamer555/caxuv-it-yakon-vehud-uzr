@@ -6,10 +6,10 @@
 	//// VARIANTS ////
 	// ALPHA //
 	const aleph = extend(UnitType, "aleph", {});
-	aleph.constructor = () => extend(UnitType, {});
+	aleph.constructor = () => extend(UnitEntity, {});
 	
 	const uni = extend(UnitType, "uni", {});
-	uni.constructor = () => extend(UnitType, {});
+	uni.constructor = () => extend(UnitEntity, {});
 	
 	//// FACTIONS ////
 	// TOX //
