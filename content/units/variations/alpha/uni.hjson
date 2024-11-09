@@ -1,0 +1,51 @@
+{
+	name: "Uni"
+	description: "Variation of [stat]Alpha[]"
+	isEnemy: false
+	lowAltitude: true
+	flying: true
+	engineSize: 2.5
+	engineOffset: 6
+	drag: 0.08
+	accel: 0.12
+	rotateSpeed: 10
+	speed: 3.75
+	health: 110
+	itemCapacity: 30
+	armor: 0
+	fogRadius: 0
+	hitSize: 8
+	mineSpeed: 6.5
+	mineTier: 1
+	buildSpeed: 0.5
+	weapons: [
+		{
+			name: uni-weapon
+			x: 2.75
+			y: 1
+			top: false
+			ejectEffect: casing1
+			reload: 10
+			shootCone: 3
+			rotate: false
+			mirror: true
+			bullet: {
+				type: BasicBulletType
+				speed: 2
+				damage: 7
+				width: 6
+				height: 8
+				lifetime: 60
+				
+				homing: true
+				homingPower: 0.075
+				homingRadius: 40
+				
+				buildingDamageMultiplier: 0.01
+				
+				shootEffect: shootSmall
+				smokeffect: shootSmallSmoke
+			}
+		}
+	]
+}

@@ -3,6 +3,14 @@
 	const wtt = extend(UnitType, "wtt", {});
 	wtt.constructor = () => extend(MechUnit, {});
 	
+	//// VARIANTS ////
+	// ALPHA //
+	const aleph = extend(UnitType, "aleph", {});
+	aleph.constructor = () => extend(UnitType, {});
+	
+	const uni = extend(UnitType, "uni", {});
+	uni.constructor = () => extend(UnitType, {});
+	
 	//// FACTIONS ////
 	// TOX //
 	const tox = extend(UnitType, "tox", {});
