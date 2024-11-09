@@ -25,7 +25,6 @@ weapons: [
 		ejectEffect: casing1
 		reload: 25
 		shootCone: 3
-		shootSound: shootSmite
 		rotate: false
 		mirror: true
 		shake: 8
