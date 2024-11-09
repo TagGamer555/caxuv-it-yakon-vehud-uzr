@@ -21,7 +21,7 @@
 	weapons: [
 		{
 			name: uniplex-weapon-main
-			x: 2.25
+			x: 2.75
 			y: 1
 			top: false
 			ejectEffect: casing1
@@ -45,8 +45,8 @@
 		}
 		{
 			name: uniplex-weapon-extra
-			x: 4.25
-			y: 0.5
+			x: 0.5
+			y: 2
 			top: false
 			ejectEffect: casing1
 			reload: 23
