@@ -14,10 +14,10 @@
 	weapons: [
 		{
 			name: sword-weapon
-			reload: 5
+			reload: 30
 			x: 4
 			y: 0
-			shootY: 2
+			shootY: 4
 			top: false
 			ejectEffect: casing1
 			mirror: true
@@ -29,8 +29,8 @@
 				width: 7
 				height: 9
 				
-				lifetime: 60
-				speed: 2.5
+				lifetime: 30
+				speed: 5
 				
 				shootEffect: shootSmall
 				smokeffect: shootSmallSmoke
