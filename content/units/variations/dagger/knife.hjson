@@ -26,15 +26,15 @@
 				type: BasicBulletType
 				
 				damage: 3
-				buildingDamageMultiplier: 1.5
+				buildingDamageMultiplier: 4
 				pierceArmor: true
 				
 				width: 4
-				height: 13
+				height: 11
 				shrinkY: 0
 				
-				lifetime: 20
-				speed: 7.5
+				lifetime: 18.75
+				speed: 8
 				
 				shootEffect: shootSmall
 				smokeffect: shootSmallSmoke
