@@ -2,11 +2,11 @@
 	name: "Sword"
 	description: "Variation of [stat]Dagger[]"
 	
-	health: 150
-	armor: 0
+	health: 175
+	armor: 2.5
 	hitSize: 8
 	
-	speed: 0.5
+	speed: 0.3
 	rotateSpeed: 5
 	
 	itemCapacity: -1
@@ -14,22 +14,41 @@
 	weapons: [
 		{
 			name: sword-weapon
-			reload: 13
+			reload: 5
 			x: 4
-			y: 2
+			y: 0
+			shootY: 2
 			top: false
 			ejectEffect: casing1
 			mirror: true
 			bullet: {
 				type: BasicBulletType
-				speed: 2.5
-				damage: 9
+				
+				damage: 10
+				
 				width: 7
 				height: 9
+				
 				lifetime: 60
+				speed: 2.5
 				
 				shootEffect: shootSmall
 				smokeffect: shootSmallSmoke
+				
+				fragOnHit: True
+				fragOnDespawn: True
+				fragRandomSpread: 10
+				fragVelocityMin: 1.25
+				fragVeloctyMax: 1.75
+				fragBullets: 3
+				fragBullet: {
+					type: BasicBulletType
+					damage: 5
+					width: 5
+					height: 7
+					lifetime: 20
+					speed: 1.5
+				}
 			}
 		}
 	]
