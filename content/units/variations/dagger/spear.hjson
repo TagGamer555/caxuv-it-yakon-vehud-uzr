@@ -29,7 +29,7 @@
 				
 				pierce: true
 				pierceBuilding: true
-				pierceDamageFactor: 2.5
+				pierceDamageFactor: 0
 				
 				length: 200
 				
