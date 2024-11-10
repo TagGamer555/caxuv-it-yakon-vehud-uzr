@@ -1,0 +1,13 @@
+name: Casing II
+description: A moderate boost to the health.
+permanent: false
+alwaysUnlocked: false
+healthMultiplier: 2
+
+effect: {
+	type: ParticleEffect
+	particles: 2
+	colorFrom: AFFF64FF
+	colorTo: AFFF6400
+	interp: circleIn
+}

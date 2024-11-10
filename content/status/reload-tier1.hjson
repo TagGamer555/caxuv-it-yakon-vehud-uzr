@@ -2,7 +2,7 @@ name: Loop I
 description: A mild boost to the firing rate.
 permanent: false
 alwaysUnlocked: false
-reloadMultiplier: 150
+reloadMultiplier: 1.5
 
 effect: {
 	type: ParticleEffect

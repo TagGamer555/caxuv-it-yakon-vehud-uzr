@@ -1,0 +1,13 @@
+name: Casing III
+description: A powerful boost to the health.
+permanent: false
+alwaysUnlocked: false
+healthMultiplier: 3
+
+effect: {
+	type: ParticleEffect
+	particles: 3
+	colorFrom: FFFF64FF
+	colorTo: FFFF6400
+	interp: circleIn
+}

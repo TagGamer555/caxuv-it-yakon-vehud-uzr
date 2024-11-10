@@ -2,11 +2,11 @@ name: Loop II
 description: A moderate boost to the firing rate.
 permanent: false
 alwaysUnlocked: false
-reloadMultiplier: 200
+reloadMultiplier: 2
 
 effect: {
 	type: ParticleEffect
-	particles: 1
+	particles: 2
 	colorFrom: 64FFC8FF
 	colorTo: 64FFC800
 	interp: circleIn

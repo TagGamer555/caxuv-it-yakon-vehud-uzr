@@ -2,11 +2,11 @@ name: Loop III
 description: A powerful boost to the firing rate.
 permanent: false
 alwaysUnlocked: false
-reloadMultiplier: 300
+reloadMultiplier: 3
 
 effect: {
 	type: ParticleEffect
-	particles: 1
+	particles: 3
 	colorFrom: 64FF96FF
 	colorTo: 64FF9600
 	interp: circleIn

@@ -1,0 +1,13 @@
+name: Casing I
+description: A mild boost to the health.
+permanent: false
+alwaysUnlocked: false
+healthMultiplier: 1.5
+
+effect: {
+	type: ParticleEffect
+	particles: 1
+	colorFrom: 64FF64FF
+	colorTo: 64FF6400
+	interp: circleIn
+}
