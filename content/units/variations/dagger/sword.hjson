@@ -37,7 +37,8 @@
 				
 				fragOnHit: True
 				fragOnDespawn: True
-				fragRandomSpread: 10
+				fragRandomSpread: 15
+				fragSpread: 5
 				fragVelocityMin: 1.25
 				fragVeloctyMax: 1.75
 				fragBullets: 3
