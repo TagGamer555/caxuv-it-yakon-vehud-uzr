@@ -21,6 +21,9 @@
 	const spear = extend(UnitType, "spear", {});
 	spear.constructor = () => extend(MechUnit, {});
 	
+	const knife = extend(UnitType, "knife", {});
+	knife.constructor = () => extend(MechUnit, {});
+	
 	//// FACTIONS ////
 	// TOX //
 	const tox = extend(UnitType, "tox", {});
