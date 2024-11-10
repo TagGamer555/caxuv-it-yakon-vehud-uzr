@@ -15,17 +15,16 @@
 		{
 			name: spear-weapon
 			shootSound: shootAlt
-			reload: 60
+			reload: 78
 			x: 4
 			y: 0
 			shootY: 2
 			top: false
-			ejectEffect: casing1
 			mirror: true
 			bullet: {
 				type: RailBulletType
 				
-				damage: 20
+				damage: 50
 				buildingDamageMultiplier: 0.6
 				
 				pierce: true
@@ -35,8 +34,8 @@
 				
 				length: 200
 				
-				shootEffect: shootSmall
-				smokeffect: shootSmallSmoke
+				shootEffect: none
+				smokeffect: none
 				pierceEffect: [
 					{
 						type: WaveEffect
