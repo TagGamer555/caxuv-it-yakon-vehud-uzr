@@ -1,0 +1,36 @@
+{
+	name: "Sword"
+	description: "Variation of [stat]Dagger[]"
+	
+	health: 150
+	armor: 0
+	hitSize: 8
+	
+	speed: 0.5
+	rotateSpeed: 5
+	
+	itemCapacity: -1
+	
+	weapons: [
+		{
+			name: sword-weapon
+			reload: 13
+			x: 4
+			y: 2
+			top: false
+			ejectEffect: casing1
+			mirror: true
+			bullet: {
+				type: BasicBulletType
+				speed: 2.5
+				damage: 9
+				width: 7
+				height: 9
+				lifetime: 60
+				
+				shootEffect: shootSmall
+				smokeffect: shootSmallSmoke
+			}
+		}
+	]
+}

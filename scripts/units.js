@@ -14,6 +14,10 @@
 	const uniplex = extend(UnitType, "uniplex", {});
 	uniplex.constructor = () => extend(UnitEntity, {});
 	
+	// DAGGER //
+	const sword = extend(UnitType, "sword", {});
+	sword.constructor = () => extend(MechUnit, {});
+	
 	//// FACTIONS ////
 	// TOX //
 	const tox = extend(UnitType, "tox", {});
