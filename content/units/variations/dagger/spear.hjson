@@ -1,0 +1,86 @@
+{
+	name: "Spear"
+	description: "Variation of [stat]Dagger[]"
+	
+	health: 100
+	armor: 0
+	hitSize: 8
+	
+	speed: 0.6
+	rotateSpeed: 3
+	
+	itemCapacity: -1
+	
+	weapons: [
+		{
+			name: spear-weapon
+			shootSound: shootAlt
+			reload: 60
+			x: 4
+			y: 0
+			shootY: 2
+			top: false
+			ejectEffect: casing1
+			mirror: true
+			bullet: {
+				type: RailBulletType
+				
+				damage: 20
+				buildingDamageMultiplier: 0.6
+				
+				pierce: true
+				pierceCap: 3
+				pierceBuilding: true
+				pierceDamageFactor: 0.8
+				
+				length: 200
+				
+				shootEffect: shootSmall
+				smokeffect: shootSmallSmoke
+				pierceEffect: [
+					{
+						type: WaveEffect
+						sides: 5
+						sizeFrom: 0
+						sizeTo: 10
+						strokeFrom: 20
+						strokeTo: 0
+						lifetime: 20
+						colorFrom: ffffffff
+						colorTo: 00000000
+					}
+				]
+				pointEffectSpace: 9.9
+				pointEffect: [
+					{
+						particles: 1
+						lifetime: 10
+						length: 0.01
+						cone: 0
+						line: true
+						lenFrom: 10
+						lenTo: 10
+						colorFrom: ffffff
+						colorTo: ffffff
+						strokeFrom: 1
+						strokeTo: 0
+						lightScl: 0
+					}
+				]
+				despawnEffect: [
+					{
+						type: WaveEffect
+						sides: 5
+						sizeFrom: 0
+						sizeTo: 10
+						strokeFrom: 20
+						strokeTo: 0
+						lifetime: 20
+						colorFrom: ffffffff
+						colorTo: 00000000
+					}
+				]
+			}
+		}
+	]
+}
