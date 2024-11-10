@@ -4,9 +4,7 @@
 	const frb = extend(PowerTurret, "frb", {});
 	
 	//// PRODUCTION ////
-	
-	
-	//// EXTRACTION ////
+	// EXTRACTION //
 	const scrapMiner = extend(GenericCrafter, "scrap-miner", {});
 	const berylliumExtractor = extend(GenericCrafter, "beryllium-extractor", {});
 	const titaniumExtractor = extend(GenericCrafter, "titanium-extractor", {});

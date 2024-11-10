@@ -1,0 +1,13 @@
+name: Loop I
+description: A mild boost to the firing rate.
+permanent: false
+alwaysUnlocked: false
+reloadMultiplier: 150
+
+effect: {
+	type: ParticleEffect
+	particles: 1
+	colorFrom: 64FFFFFF
+	colorTo: 64FFFF00
+	interp: circleIn
+}
