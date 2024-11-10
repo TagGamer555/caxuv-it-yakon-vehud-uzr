@@ -28,9 +28,8 @@
 				buildingDamageMultiplier: 0.6
 				
 				pierce: true
-				pierceCap: 3
 				pierceBuilding: true
-				pierceDamageFactor: 0.8
+				pierceDamageFactor: 2.5
 				
 				length: 200
 				
