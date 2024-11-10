@@ -43,11 +43,11 @@
 						sides: 5
 						sizeFrom: 0
 						sizeTo: 10
-						strokeFrom: 20
+						strokeFrom: 3
 						strokeTo: 0
 						lifetime: 20
 						colorFrom: ffffffff
-						colorTo: 00000000
+						colorTo: ffffff00
 					}
 				]
 				pointEffectSpace: 9.9
@@ -73,11 +73,11 @@
 						sides: 5
 						sizeFrom: 0
 						sizeTo: 10
-						strokeFrom: 20
+						strokeFrom: 3
 						strokeTo: 0
 						lifetime: 20
 						colorFrom: ffffffff
-						colorTo: 00000000
+						colorTo: ffffff00
 					}
 				]
 			}
