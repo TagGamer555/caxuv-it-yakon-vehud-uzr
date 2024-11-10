@@ -1,9 +1,9 @@
-const reloadtier1 = (StatusEffect, {});
-const reloadtier2 = (StatusEffect, {});
-const reloadtier3 = (StatusEffect, {});
-const healthtier1 = (StatusEffect, {});
-const healthtier2 = (StatusEffect, {});
-const healthtier3 = (StatusEffect, {});
+const reloadtier1 = extend(StatusEffect, "reload-tier1", {});
+const reloadtier2 = extend(StatusEffect, "reload-tier2", {});
+const reloadtier3 = extend(StatusEffect, "reload-tier3", {});
+const healthtier1 = extend(StatusEffect, "health-tier1", {});
+const healthtier2 = extend(StatusEffect, "health-tier2", {});
+const healthtier3 = extend(StatusEffect, "health-tier3", {});
 
 module.exports = {
 	reloadtier1: reloadtier1,
