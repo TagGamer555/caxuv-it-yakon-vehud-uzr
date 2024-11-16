@@ -36,6 +36,9 @@
 	const advancedReinforcedCrate = extend(StorageBlock, "advanced-reinforced-crate", {});
 	const superiorReinforcedCrate = extend(StorageBlock, "superior-reinforced-crate", {});
 	
+	//// LOGIC ////
+	const advMessage = extend(MessageBlock, "adv-message", {});
+	
 	//// OTHER ////
 	const surgeBlock = extend(Wall, "surge-block", {});
 	const unframedGlass = extend(Wall, "unframed-glass", {});
