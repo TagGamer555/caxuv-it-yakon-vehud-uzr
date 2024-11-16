@@ -12,6 +12,6 @@
 	// research: none
 	underBullets: false
 	instantTransfer: false
-	group: none
-	speed: 0
+	blockGroup: walls
+	itemsPerSecond: 0
 }

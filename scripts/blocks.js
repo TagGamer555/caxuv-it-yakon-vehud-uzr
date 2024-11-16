@@ -40,7 +40,7 @@
 	const advMessage = extend(MessageBlock, "adv-message", {});
 	
 	//// DEFENSE ////
-	const sorterWall = extend(Sorter, "sorter-wall", {});
+	const sorterWall = extend(ItemSource, "sorter-wall", {});
 	
 	//// OTHER ////
 	const surgeBlock = extend(Wall, "surge-block", {});
