@@ -41,6 +41,7 @@
 	
 	//// DEFENSE ////
 	const sorterWall = extend(ItemSource, "sorter-wall", {});
+	const armoredSorterWall = extend(ItemSource, "armored-sorter-wall", {});
 	
 	//// OTHER ////
 	const surgeBlock = extend(Wall, "surge-block", {});
