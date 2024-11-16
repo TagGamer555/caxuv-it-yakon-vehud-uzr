@@ -39,6 +39,9 @@
 	//// LOGIC ////
 	const advMessage = extend(MessageBlock, "adv-message", {});
 	
+	//// DEFENSE ////
+	const sorterWall = extend(Sorter, "sorter-wall", {});
+	
 	//// OTHER ////
 	const surgeBlock = extend(Wall, "surge-block", {});
 	const unframedGlass = extend(Wall, "unframed-glass", {});

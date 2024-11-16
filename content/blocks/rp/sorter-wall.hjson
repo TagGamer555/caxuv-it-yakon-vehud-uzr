@@ -1,0 +1,17 @@
+{
+	name: Sorter Wall
+	description: "Wall with a changeable color."
+	health: 900
+	armor: 6
+	size: 1
+	requirements: [
+		thorium/20
+		silicon/10
+	]
+	category: defense
+	// research: none
+	underBullets: false
+	instantTransfer: false
+	group: none
+	speed: 0
+}
